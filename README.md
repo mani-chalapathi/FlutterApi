@@ -19,5 +19,7 @@ This Flutter application fetches and displays a list of posts from a public API 
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/venu-galijarla/FlutterProject.git
+
+   flutter pub get ( to download all the dependencies)
+   flutter run (to run the application)
