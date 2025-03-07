@@ -1,16 +1,23 @@
-# flutter_api
+# Simple API-Fetching Flutter Application
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter application fetches and displays a list of posts from a public API (https://jsonplaceholder.typicode.com/posts). It demonstrates how to handle asynchronous data fetching, display a loading indicator, and manage errors gracefully. The application features a clean and structured codebase, making it easy to understand and extend.
 
-This project is a starting point for a Flutter application.
+### Key Features
+- Fetches data from a public API.
+- Displays post titles in a scrollable ListView.
+- Shows a CircularProgressIndicator while data is loading.
+- Gracefully handles API errors with user-friendly error messages.
 
-A few resources to get you started if this is your first Flutter project:
+## File Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **main.dart**: The main entry point of the Flutter application. It contains the logic for fetching data from the API and displaying it in a ListView.
+- **pubspec.yaml**: Contains metadata about the project, including dependencies. Make sure to add the `http` package for API requests.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Setup Instructions
+
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
