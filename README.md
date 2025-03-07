@@ -1,25 +1,27 @@
-# Simple API-Fetching Flutter Application
+# Flutter API Fetching Application
 
-## Overview
+## Description
 
-This Flutter application fetches and displays a list of posts from a public API (https://jsonplaceholder.typicode.com/posts). It demonstrates how to handle asynchronous data fetching, display a loading indicator, and manage errors gracefully. The application features a clean and structured codebase, making it easy to understand and extend.
+This is a simple Flutter application that demonstrates how to fetch and display data from a public API. The app retrieves a list of posts from [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts) and presents the post titles in a user-friendly interface. It features loading indicators and error handling to enhance the user experience.
 
-### Key Features
-- Fetches data from a public API.
-- Displays post titles in a scrollable ListView.
-- Shows a CircularProgressIndicator while data is loading.
-- Gracefully handles API errors with user-friendly error messages.
+## Features
 
-## File Structure
+- **Data Fetching**: Retrieves posts from a public API using the `http` package.
+- **User Interface**: Displays the fetched post titles in a scrollable ListView.
+- **Loading Indicator**: Shows a CircularProgressIndicator while data is being loaded.
+- **Error Handling**: Displays an error message when the API request fails.
 
-- **main.dart**: The main entry point of the Flutter application. It contains the logic for fetching data from the API and displaying it in a ListView.
-- **pubspec.yaml**: Contains metadata about the project, including dependencies. Make sure to add the `http` package for API requests.
+## File Overview
 
-## Project Setup Instructions
+- **main.dart**: The main file that contains the app's core functionality, including data fetching, state management, and UI rendering.
+- **pubspec.yaml**: Configuration file for the Flutter project, listing dependencies and project metadata.
+
+## Setup Instructions
+
+Follow these steps to set up and run the application:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/venu-galijarla/FlutterProject.git
-
-   flutter pub get ( to download all the dependencies)
-   flutter run (to run the application)
+   git clone  https://github.com/joy-grace/FlutterApp.git
+   git clean ( used to build)
+   git run (used to run)
