@@ -40,9 +40,9 @@ class _PostListScreenState extends State<PostListScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       backgroundColor: Colors.deepPurple,
+       backgroundColor: Colors.blue,
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
         title: Text('Fectching Data from  API', style: TextStyle(
           color: Colors.white
@@ -81,6 +81,7 @@ class _PostListScreenState extends State<PostListScreen> {
                           ),),
                           subtitle: Text(posts[index].body),
                           trailing:  CircleAvatar(
+                            backgroundColor: Colors.blue,
                             child: Text(posts[index].userId.toString(),style: TextStyle(
                               fontSize: 20.0, fontWeight: FontWeight.bold
                             ),),

@@ -19,9 +19,9 @@ This is a simple Flutter application that demonstrates how to fetch and display 
 ## Setup Instructions
 
 Follow these steps to set up and run the application:
-
+   
 1. **Clone the repository**:
    ```bash
-   git clone  https://github.com/joy-grace/FlutterApp.git
+   git clone  https://github.com/mani-chalapathi/FlutterApi.git
    git clean ( used to build)
    git run (used to run)
